@@ -41,6 +41,8 @@ public class ActionsTest{
 //		Actions act = new Actions(driver);
 //		act.moveToElement(element).perform();
 		
+		driver.findElement(By.xpath("//a[@href='/drivers']")).click();
+		
 		
 	}
 
